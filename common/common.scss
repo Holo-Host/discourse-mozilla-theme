@@ -1,14 +1,31 @@
-@import url('https://code.cdn.mozilla.net/fonts/zilla-slab.css');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,400i,600,700,700i');
 @import "variables";
 
+/* Custom */
+
+.custom-header-links a { margin-left: 12px; box-shadow: 1px 1px 0 0 rgba(0,0,0,.2); padding: 6px 11px !important; font-size: 1em !important; font-weight: 600; color: #FFF !important; letter-spacing: -.3px; background: rgba(255,255,255,.15); border-radius: 50px; }
+#banner { margin-bottom: 27px; background: #E0F9FA; border-radius: 10px; padding: 20px 25px 10px; }
+.d-header { height: 72px !important; background: #2F3C5B; }
+.d-header .d-header-icons .icon .d-icon { color: #FFF !important; }
+.d-header .d-header-icons .icon:hover .d-icon, .d-header .d-header-icons .active .icon .d-icon { color: #222 !important; }
+.categories-wrapper { display: none !important; top: 72px !important; }
+#main-outlet { border-radius: 15px !important; }
+img.avatar { border-radius: 100px !important; }
+.extra-info-wrapper .topic-link { color: #FFF; }
+.category-text-title .d-icon-lock, .subcategory .d-icon-lock, .category-box-heading .d-icon-lock { display: none; }
+.category-description ul { margin-bottom: 0; margin-left: 20px; }
+
+@media (max-width:640px){ .custom-header-links { display: none !important; }}
+
+/* Theme */
+
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Work Sans", sans-serif; letter-spacing: -.2px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Zilla Slab", serif;
-    font-weight: normal;
+    font-family: "Work Sans", serif;
+    font-weight: 700;
 }
 
 .login-button {
@@ -212,7 +229,7 @@ img.avatar {
 
     .wrap {
         width: 100%;
-        max-width: none;
+        max-width: 1166px;
         padding: 0;
     }
 

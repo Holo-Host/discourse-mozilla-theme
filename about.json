@@ -1,8 +1,28 @@
 {
   "name": "moz://a",
-  "about_url": "https://github.com/mozilla/discourse-mozilla-theme",
+  "component": false,
   "license_url": "https://github.com/mozilla/discourse-mozilla-theme/blob/master/LICENSE",
+  "about_url": "https://github.com/mozilla/discourse-mozilla-theme",
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+    "icons-sprite": "assets/icons-sprite.svg"
+  },
   "color_schemes": {
+    "moz://a light - Holo": {
+      "primary": "000000",
+      "secondary": "ffffff",
+      "tertiary": "00a6ae",
+      "quaternary": "000000",
+      "header_background": "FFFFFF",
+      "header_primary": "000000",
+      "highlight": "F1F2F5",
+      "danger": "ff0039",
+      "success": "12bc00",
+      "love": "ff298a"
+    },
     "moz://a light": {
       "primary": "000000",
       "secondary": "ffffff",
@@ -13,7 +33,7 @@
       "highlight": "ededf0",
       "danger": "ff0039",
       "success": "12bc00",
-      "love": "ff298A"
+      "love": "ff298a"
     },
     "moz://a dark": {
       "primary": "ffffff",
@@ -25,10 +45,10 @@
       "highlight": "1e1f20",
       "danger": "ff0039",
       "success": "12bc00",
-      "love": "ff298A"
+      "love": "ff298a"
     }
   },
-  "assets": {
-    "icons-sprite": "assets/feather-sprite.svg"
-  }
+  "modifiers": {
+  },
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
 }

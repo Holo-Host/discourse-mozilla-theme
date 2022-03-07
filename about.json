@@ -1,10 +1,10 @@
 {
-  "name": "moz://a",
+  "name": "moz://a (Holo customizations)",
   "component": false,
   "license_url": "https://github.com/mozilla/discourse-mozilla-theme/blob/master/LICENSE",
   "about_url": "https://github.com/mozilla/discourse-mozilla-theme",
-  "authors": null,
-  "theme_version": null,
+  "authors": [ "moz://a forum creators", "Klaye Morrison", "Paul d'Aoust" ],
+  "theme_version": "0.1.0",
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
